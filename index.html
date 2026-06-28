@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Two Brothers Home Bakery — Premium homemade bakery in Bangalore. Artisan tiramisu, bomboloni, cheesecake, cookies, and handcrafted chocolates. Made fresh, only after your order. No preservatives.">
+  <meta name="keywords" content="homemade bakery Bangalore, tiramisu, bomboloni, cheesecake, artisan chocolates, fresh desserts, custom cakes, two brothers home bakery">
+  <meta property="og:title" content="Two Brothers Home Bakery — Handcrafted Desserts, Bangalore">
+  <meta property="og:description" content="Premium homemade desserts made fresh, only after your order.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3D1A0E">
+  <title>Two Brothers Home Bakery — Handcrafted with Love</title>
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+
+<!-- ── Loader ────────────────────────────────────────────── -->
+<div id="loader" role="status" aria-label="Loading Two Brothers Home Bakery">
+  <div class="loader-brand">Two Brothers Home Bakery</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- ── Cursor ────────────────────────────────────────────── -->
+<div class="cursor"       aria-hidden="true"></div>
+<div class="cursor-ring"  aria-hidden="true"></div>
+
+<!-- ── Scroll Progress ───────────────────────────────────── -->
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAVIGATION
+     ══════════════════════════════════════════════════════════ -->
+<header>
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <a href="#hero" class="nav-logo" aria-label="Two Brothers Home Bakery Home">Two Brothers Home Bakery</a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#hero"         class="nav-link">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#menu"         class="nav-link">Menu</a></li>
+        <li><a href="#best-sellers" class="nav-link">Best Sellers</a></li>
+        <li><a href="#bulk"         class="nav-link">Bulk Orders</a></li>
+        <li><a href="#gallery"      class="nav-link">Gallery</a></li>
+        <li><a href="#reviews"      class="nav-link">Reviews</a></li>
+        <li><a href="#faq"          class="nav-link">FAQ</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <a href="https://wa.me/917019051231" target="_blank" rel="noopener"
+           class="nav-btn-wa" aria-label="Order on WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Order Now
+        </a>
+        <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <button class="mobile-nav-close" aria-label="Close menu">✕</button>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#best-sellers">Best Sellers</a>
+    <a href="#bulk">Bulk Orders</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO
+     ══════════════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Welcome to Two Brothers Home Bakery">
+  <!-- Three.js canvas -->
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+  <!-- Bakery video background -->
+  <video class="hero-video-bg" autoplay muted loop playsinline preload="none"
+         aria-hidden="true" poster="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=60">
+    <source src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span>Bangalore, India</span>
+    </div>
+
+    <h1 class="hero-title">
+      Desserts<br>
+      Made with<br>
+      <em>Pure Love</em>
+    </h1>
+
+    <p class="hero-tagline">
+      Handcrafted with Love, Baked Fresh Just for You.<br>
+      No preservatives. No shortcuts. Only the finest ingredients.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="https://wa.me/917019051231" target="_blank" rel="noopener"
+         class="btn-primary" aria-label="Order on WhatsApp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Order on WhatsApp
+      </a>
+      <a href="#menu" class="btn-outline" aria-label="Explore our menu">
+        Explore Menu
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ABOUT
+     ══════════════════════════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Images -->
+      <div class="about-images" data-aos="fade-right">
+        <img class="about-img-main" loading="lazy"
+          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80"
+          alt="Our bakery kitchen — handcrafting desserts">
+        <img class="about-img-secondary" loading="lazy"
+          src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80"
+          alt="Freshly prepared tiramisu">
+        <div class="about-badge" aria-hidden="true"><span>✦</span>100%<br>Homemade</div>
+      </div>
+
+      <!-- Text -->
+      <div data-aos="fade-left" data-aos-delay="150">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">
+          Made in a Kitchen<br>
+          <em style="font-style:italic;color:var(--coffee)">Filled with Love</em>
+        </h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtitle">
+          Two Brothers Home Bakery began as a love affair with ingredients — real butter, single-origin chocolate,
+          farm eggs, and no shortcuts. Every dessert is prepared fresh, by hand, only after you
+          place your order. Nothing sits on a shelf. Nothing contains preservatives.
+        </p>
+        <p style="margin-top:1rem;color:var(--text-light);line-height:1.8;font-size:var(--text-base)">
+          We believe great desserts deserve time. That's why we work in small batches, 
+          perfecting each recipe until it's exactly right. Whether it's a single jar of 
+          peanut butter or a hundred custom chocolates for a wedding — every order 
+          receives the same devotion.
+        </p>
+
+        <div class="about-pillars" style="margin-top:2rem">
+          <div class="pillar" data-aos="fade-up" data-aos-delay="200">
+            <div class="pillar-icon">🌿</div>
+            <div class="pillar-name">No Preservatives</div>
+            <div class="pillar-desc">Every ingredient is natural. What you taste is exactly what went in.</div>
+          </div>
+          <div class="pillar" data-aos="fade-up" data-aos-delay="260">
+            <div class="pillar-icon">⏱</div>
+            <div class="pillar-name">Made to Order</div>
+            <div class="pillar-desc">Prepared only after your order — never stored, never reheated.</div>
+          </div>
+          <div class="pillar" data-aos="fade-up" data-aos-delay="320">
+            <div class="pillar-icon">🏠</div>
+            <div class="pillar-name">Home Kitchen</div>
+            <div class="pillar-desc">Made with home warmth, not factory precision. Every batch is personal.</div>
+          </div>
+          <div class="pillar" data-aos="fade-up" data-aos-delay="380">
+            <div class="pillar-icon">🎁</div>
+            <div class="pillar-name">Perfect for Gifting</div>
+            <div class="pillar-desc">Birthdays, weddings, festivals, baby showers, corporate gifts.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     STATS STRIP
+     ══════════════════════════════════════════════════════════ -->
+<div class="stats-strip" aria-label="Our numbers">
+  <div class="container">
+    <div class="stats-grid">
+      <div>
+        <div class="stat-number">
+          <span class="counter" data-target="500" data-suffix="+">0+</span>
+        </div>
+        <div class="stat-label">Happy Customers</div>
+      </div>
+      <div>
+        <div class="stat-number">
+          <span class="counter" data-target="14" data-suffix="">0</span>
+        </div>
+        <div class="stat-label">Signature Recipes</div>
+      </div>
+      <div>
+        <div class="stat-number">
+          <span class="counter" data-target="7" data-suffix="">0</span>
+        </div>
+        <div class="stat-label">Product Categories</div>
+      </div>
+      <div>
+        <div class="stat-number">
+          <span class="counter" data-target="100" data-suffix="%">0%</span>
+        </div>
+        <div class="stat-label">Made Fresh to Order</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     MENU
+     ══════════════════════════════════════════════════════════ -->
+<section id="menu" class="section">
+  <div class="container">
+
+    <div data-aos="fade-up">
+      <p class="section-eyebrow">Our Menu</p>
+      <h2 class="section-title">What Are You<br><em style="font-style:italic;color:var(--coffee)">Craving Today?</em></h2>
+      <div class="gold-divider"></div>
+    </div>
+
+    <!-- Controls -->
+    <div class="menu-controls" data-aos="fade-up" data-aos-delay="100">
+      <!-- Search -->
+      <div class="menu-search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="search" id="menu-search" placeholder="Search tiramisu, cookies, chocolate…"
+               aria-label="Search products">
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-row">
+        <div id="category-filters" style="display:flex;gap:0.5rem;flex-wrap:wrap" role="group" aria-label="Filter by category">
+          <!-- Dynamically populated by JS -->
+        </div>
+        <button id="bestseller-toggle" class="filter-btn" aria-pressed="false">
+          ★ Best Sellers
+        </button>
+        <select id="sort-select" class="sort-select" aria-label="Sort products">
+          <option value="default">Sort: Default</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="price-desc">Price: High → Low</option>
+          <option value="new">New Arrivals First</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="products-grid" class="products-grid" role="list" aria-label="Product listing">
+      <!-- Populated by JS -->
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     BEST SELLERS
+     ══════════════════════════════════════════════════════════ -->
+<section id="best-sellers" class="section">
+  <div class="container">
+
+    <div data-aos="fade-up">
+      <p class="section-eyebrow">Fan Favourites</p>
+      <h2 class="section-title">Our Best Sellers</h2>
+      <p class="section-subtitle" style="color:rgba(255,248,240,0.6)">
+        The desserts our customers keep coming back for — tried, tested, and adored.
+      </p>
+    </div>
+
+    <div id="bestsellers-grid" class="bestseller-grid">
+      <!-- Populated by JS -->
+    </div>
+
+    <div style="text-align:center;margin-top:3rem" data-aos="fade-up">
+      <a href="https://wa.me/917019051231" target="_blank" rel="noopener"
+         class="btn-primary" style="display:inline-flex">
+        Order Any Dessert on WhatsApp ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     BULK ORDERS
+     ══════════════════════════════════════════════════════════ -->
+<section id="bulk" class="section">
+  <div class="container">
+    <div class="bulk-grid">
+
+      <div data-aos="fade-right">
+        <p class="section-eyebrow">Wholesale & Events</p>
+        <h2 class="section-title">Bulk Orders<br><em style="font-style:italic;color:var(--coffee)">For Every Occasion</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtitle">
+          Whether you're planning an intimate birthday or a grand corporate event, 
+          we craft every dessert with the same care — at scale. Minimum quantities apply; 
+          advance ordering is recommended.
+        </p>
+
+        <div class="bulk-occasions">
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Birthdays & Anniversaries
+          </div>
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l2 7h7l-5.5 4 2 7L12 16l-5.5 4 2-7L3 9h7z"/></svg>
+            Weddings & Receptions
+          </div>
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-4 0v2M8 7V5a2 2 0 0 1 4 0"/></svg>
+            Corporate Gifting
+          </div>
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            Schools & Colleges
+          </div>
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Festivals & Celebrations
+          </div>
+          <div class="occasion-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            Baby Showers & Parties
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-delay="150">
+        <div class="bulk-cta-box">
+          <div style="font-size:3rem;margin-bottom:1rem">🎁</div>
+          <h3 class="bulk-cta-title">Planning a Large Order?</h3>
+          <p class="bulk-cta-desc">
+            Tell us your occasion, guest count, and favourite flavours. 
+            We'll craft a custom quote within 24 hours.
+          </p>
+          <ul style="text-align:left;margin-bottom:2rem;display:flex;flex-direction:column;gap:0.75rem">
+            <li style="color:rgba(255,248,240,0.65);font-size:var(--text-sm);display:flex;gap:0.5rem;align-items:flex-start">
+              <span style="color:var(--gold)">✓</span> Minimum order: 10 pieces / 2 jars
+            </li>
+            <li style="color:rgba(255,248,240,0.65);font-size:var(--text-sm);display:flex;gap:0.5rem;align-items:flex-start">
+              <span style="color:var(--gold)">✓</span> 48–72 hours advance notice preferred
+            </li>
+            <li style="color:rgba(255,248,240,0.65);font-size:var(--text-sm);display:flex;gap:0.5rem;align-items:flex-start">
+              <span style="color:var(--gold)">✓</span> Custom packaging & personalisation available
+            </li>
+            <li style="color:rgba(255,248,240,0.65);font-size:var(--text-sm);display:flex;gap:0.5rem;align-items:flex-start">
+              <span style="color:var(--gold)">✓</span> Special pricing for larger volumes
+            </li>
+          </ul>
+          <a href="https://wa.me/917019051231?text=Hi!%20I%20would%20like%20to%20place%20a%20bulk%20order.%20Could%20you%20please%20share%20more%20details%3F"
+             target="_blank" rel="noopener" class="btn-wa-large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     GALLERY
+     ══════════════════════════════════════════════════════════ -->
+<section id="gallery" class="section">
+  <div class="container">
+
+    <div data-aos="fade-up" style="text-align:center;margin-bottom:1rem">
+      <p class="section-eyebrow" style="justify-content:center">Visual Diary</p>
+      <h2 class="section-title">A Glimpse of<br><em style="font-style:italic;color:var(--coffee)">Our Craft</em></h2>
+    </div>
+
+    <div class="gallery-grid" role="list" aria-label="Gallery of dessert images">
+
+      <div class="gallery-item" data-aos="fade-up">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&q=75" alt="Tiramisu closeup">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="60">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400&q=75" alt="New York cheesecake">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="120">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=75" alt="Fudge brownies">
+      </div>
+      <div class="gallery-item" data-aos="fade-up">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=400&q=75" alt="Artisan chocolates">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="60">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&q=75" alt="Bomboloni doughnuts">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="120">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=75" alt="Chocolate cookies">
+      </div>
+      <div class="gallery-item" data-aos="fade-up">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&q=75" alt="Strawberry cheesecake">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="60">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=400&q=75" alt="Custom chocolates packaging">
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="120">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=400&q=75" alt="Homemade peanut butter jar">
+      </div>
+
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+      <button id="lightbox-close" aria-label="Close image">✕</button>
+      <img id="lightbox-img" src="" alt="Gallery image preview">
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     REVIEWS
+     ══════════════════════════════════════════════════════════ -->
+<section id="reviews" class="section">
+  <div class="container">
+
+    <div data-aos="fade-up" style="text-align:center">
+      <p class="section-eyebrow" style="justify-content:center">Testimonials</p>
+      <h2 class="section-title">Loved by<br><em style="font-style:italic;color:var(--coffee)">Our Customers</em></h2>
+    </div>
+
+    <div class="reviews-grid">
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"The tiramisu was unlike anything I've had at any café. You could taste that it was made with actual love — the mascarpone was so silky. My whole family was fighting over the last spoonful."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">P</div>
+          <div>
+            <div class="reviewer-name">Priya Sharma</div>
+            <div class="reviewer-detail">Bangalore · Tiramisu</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"Ordered 50 custom chocolate boxes for our office Diwali gifts. Every single box was perfect, beautifully packed. The feedback from my team was overwhelmingly positive. Will absolutely reorder."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">R</div>
+          <div>
+            <div class="reviewer-name">Rahul Mehta</div>
+            <div class="reviewer-detail">Koramangala · Bulk Chocolates</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"The bomboloni are absolutely dangerous — once you have one, you can't stop. The Nutella filling is so generous. Delivery was on time and the packaging kept them warm and fresh. 10/10."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="reviewer-name">Ananya Krishnan</div>
+            <div class="reviewer-detail">Indiranagar · Bomboloni</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"I got the chocolate peanut butter as a birthday gift and I am not exaggerating — I finished the whole jar in two days. No weird aftertaste, no oil separation. This is what peanut butter should taste like."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">S</div>
+          <div>
+            <div class="reviewer-name">Suresh Nair</div>
+            <div class="reviewer-detail">Whitefield · Peanut Butter</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"Two Brothers Home Bakery made our wedding dessert table magical. The cheesecake, brownies, and chocolate boxes all matched our theme perfectly. Guests were taking photos — it looked as good as it tasted."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">M</div>
+          <div>
+            <div class="reviewer-name">Meera & Karthik</div>
+            <div class="reviewer-detail">Jayanagar · Wedding Order</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p class="review-text">"The walnut espresso brownies are my weekly ritual now. Dense, rich, and that coffee hit is just right. I appreciate that there are no preservatives — you can literally taste the freshness."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" aria-hidden="true">D</div>
+          <div>
+            <div class="reviewer-name">Deepa Rao</div>
+            <div class="reviewer-detail">HSR Layout · Brownies</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FAQ
+     ══════════════════════════════════════════════════════════ -->
+<section id="faq" class="section">
+  <div class="container">
+
+    <div data-aos="fade-up" style="text-align:center">
+      <p class="section-eyebrow" style="justify-content:center">Questions</p>
+      <h2 class="section-title">Frequently Asked<br><em style="font-style:italic;color:var(--coffee)">Questions</em></h2>
+    </div>
+
+    <div class="faq-grid" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How do I place an order?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">All orders are placed through WhatsApp. Simply click any "Order Now" button on this page and you'll be connected directly to us. Tell us what you'd like, your preferred date, and any special requests — we'll confirm within a few hours.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How far in advance should I order?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">For individual orders, 24 hours notice is ideal. For bulk orders (events, weddings, corporate), we recommend 48–72 hours in advance. For very large orders (100+ pieces), please give us at least a week's notice.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you use any preservatives?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Absolutely not. Every ingredient is natural and fresh. No artificial colours, flavours, or preservatives — ever. This is why we make everything to order and not in advance.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How long do the desserts last?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Tiramisu and cheesecakes are best within 2–3 days when refrigerated. Cookies and brownies stay fresh for 3–4 days in an airtight container. Peanut butter lasts up to 2 weeks refrigerated.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you do delivery?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes — we deliver within Bangalore. Delivery charges vary by distance. For pickups, we can arrange a convenient location. Please mention your area when ordering and we'll confirm logistics.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Can I customise my order?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Absolutely. We love customisation! You can request specific flavours, personalised messages on chocolate boxes, custom packaging, and theme-based designs for events. Just let us know your vision.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What payment methods do you accept?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">We accept UPI (GPay, PhonePe, Paytm, BHIM), bank transfers, and cash on delivery for local pickups. Payment is typically collected at the time of order confirmation or delivery.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you cater to dietary restrictions?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">We're working on expanding our range. Currently, most products contain dairy, gluten, and eggs. Please mention any allergies when ordering and we'll advise on what's suitable for you.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     CONTACT
+     ══════════════════════════════════════════════════════════ -->
+<section id="contact" class="section">
+  <div class="container">
+
+    <div class="contact-grid">
+
+      <div data-aos="fade-right">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Let's Talk<br><em style="font-style:italic;color:var(--coffee)">Desserts</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtitle">
+          Ready to order, or just curious about something? We're always happy to chat. 
+          WhatsApp is the fastest way to reach us.
+        </p>
+
+        <div class="contact-items">
+          <a href="https://wa.me/917019051231" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value">+91 70190 51231</div>
+            </div>
+          </a>
+
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-label">Instagram</div>
+              <div class="contact-value">@twobrothershomebakery</div>
+            </div>
+          </a>
+
+          <a href="mailto:hello@twobrothershomebakery.com" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">hello@twobrothershomebakery.com</div>
+            </div>
+          </a>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-label">Business Hours</div>
+              <div class="contact-value">Mon–Sat, 9AM–7PM IST</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-delay="150">
+        <div class="map-placeholder">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--gold)" aria-hidden="true">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          <p style="font-family:var(--font-display);font-size:var(--text-xl);color:var(--text-dark)">Bangalore, Karnataka</p>
+          <p>Serving across the city · Delivery available</p>
+          <a href="https://wa.me/917019051231?text=Hi!%20I'd%20like%20to%20know%20more%20about%20delivery%20to%20my%20area."
+             target="_blank" rel="noopener" style="margin-top:1rem;display:inline-flex;align-items:center;gap:0.5rem;color:var(--gold);font-weight:600;font-size:var(--text-sm)">
+            Ask about delivery to your area ↗
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div>
+        <div class="footer-brand-name">Two Brothers Home Bakery</div>
+        <p class="footer-brand-desc">
+          Premium homemade desserts crafted with love, prepared fresh, 
+          and delivered to your door in Bangalore. No preservatives, no shortcuts — 
+          only the finest ingredients and genuine care.
+        </p>
+        <p class="footer-tagline">"Handcrafted with Love, Baked Fresh Just for You."</p>
+        <div class="footer-socials">
+          <a href="https://wa.me/917019051231" target="_blank" rel="noopener"
+             class="footer-social" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+             class="footer-social" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="mailto:hello@twobrothershomebakery.com" class="footer-social" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div>
+        <p class="footer-heading">Menu</p>
+        <ul class="footer-links">
+          <li><a href="#menu">Tiramisu</a></li>
+          <li><a href="#menu">Bomboloni</a></li>
+          <li><a href="#menu">Cheesecakes</a></li>
+          <li><a href="#menu">Cookies</a></li>
+          <li><a href="#menu">Brownies</a></li>
+          <li><a href="#menu">Peanut Butter</a></li>
+          <li><a href="#menu">Chocolates</a></li>
+        </ul>
+      </div>
+
+      <!-- Pages -->
+      <div>
+        <p class="footer-heading">Pages</p>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#best-sellers">Best Sellers</a></li>
+          <li><a href="#bulk">Bulk Orders</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <p class="footer-heading">Contact</p>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/917019051231" target="_blank" rel="noopener">+91 70190 51231</a></li>
+          <li><a href="mailto:hello@twobrothershomebakery.com">hello@twobrothershomebakery.com</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">@twobrothershomebakery</a></li>
+          <li><span style="color:rgba(255,248,240,0.45)">Mon–Sat · 9AM–7PM IST</span></li>
+          <li><span style="color:rgba(255,248,240,0.45)">Bangalore, Karnataka</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Two Brothers Home Bakery. All rights reserved. Made with 🤍 in Bangalore.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="https://wa.me/917019051231" target="_blank" rel="noopener">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ── Floating WhatsApp ───────────────────────────────── -->
+<a href="https://wa.me/917019051231" target="_blank" rel="noopener"
+   class="wa-float" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCRIPTS — CDN Libraries
+     ══════════════════════════════════════════════════════════ -->
+
+<!-- Three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Lenis Smooth Scroll -->
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+
+<!-- AOS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- Vanilla Tilt -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+<!-- App -->
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
